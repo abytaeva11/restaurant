@@ -1,0 +1,38 @@
+
+@import "Styles/Header.scss";
+@import "Styles/Hero.scss";
+@import "Styles/About.scss";
+@import "Styles/BestSellers.scss";
+@import "Styles/MainMenu.scss";
+@import "Styles/ModernInterier.scss";
+@import "Styles/Visit.scss";
+@import "Styles/Footer.scss";
+
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: "League Spartan", sans-serif;
+    background: #525252;
+}
+html{
+    scroll-behavior: smooth;
+}
+::-webkit-scrollbar{
+    width: 10px;
+}
+::-webkit-scrollbar-track{
+    background: rgba(190, 188, 188, 0.54);
+}
+::-webkit-scrollbar-thumb{
+    background: rgba(16, 13, 13, 0.47);;
+    border-radius: 20px;
+}
+.container{
+    width: 90%;
+    margin: 0 auto;
+}
+a{
+    text-decoration: none;
+}
