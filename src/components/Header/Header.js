@@ -8,8 +8,6 @@ const Header = () => {
         <header id="header">
             <div className="container">
                 <div className="header">
-
-
                     <div
                         style={{
                             transform: !burger ? 'translateY(-120%)' : "",
@@ -32,9 +30,9 @@ const Header = () => {
                                 Contacts
                             </NavLink>
                             <div className="header__menu--navbar__languages">
-                                <button>EN</button>
-                                <button>RU</button>
-                                <button>KG</button>
+                                <button>En</button>
+                                <button>Ru</button>
+                                <button>Kg</button>
                             </div>
                         </nav>
                     </div>
@@ -63,6 +61,11 @@ const Header = () => {
                             <span><CiSearch/>
                             </span>
                         </div>
+                        <select style={{border:'none',outline:'none',background:'none'}}>
+                            <option style={{background:'black'}} value="">En</option>
+                            <option style={{background:'black'}} value="">Ru</option>
+                            <option style={{background:'black'}} value="">Kg</option>
+                        </select>
                     </nav>
 
                     <div onClick={() => setBurger(!burger)} className="header__burger">
@@ -81,7 +84,6 @@ const Header = () => {
                                 marginRight:burger ? "8px" : "0",
                                 width:burger ? "12px " : "0",
                                 display:burger ? "none" : "block"
-
                             }} className="header__brm--ser"/>
                             <div style={{
                                 transform:burger ? "rotate(0) " : "rotate(0)",
@@ -96,7 +98,6 @@ const Header = () => {
                             transform: burger ? "rotate(-49deg)" : "rotate(0)",
                             display: burger ? "block" : "none" ,
                             transition:burger ? ".4s": ""
-
                         }}
                               className="header__close"/>
                     </div>

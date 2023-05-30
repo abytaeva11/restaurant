@@ -10,11 +10,11 @@ const About = () => {
             <div className="container">
                 <div className="about">
                     <div className="about--block">
-                     <div className="about--block__group">
-                         <img src={logo} alt="img"/>
-                         <h1>A Journey Throught
-                             Cafesio Flavors</h1>
-                     </div>
+                        <div className="about--block__group">
+                            <img src={logo} alt="img"/>
+                            <h1>A Journey Throught
+                                Cafesio Flavors</h1>
+                        </div>
                         <p>Try dishes that will open up new tastes for you and delight your
                             eyes with their appearance. Here you will find a cozy atmosphere,
                             excellent service and attention to each guest. Book a table now
