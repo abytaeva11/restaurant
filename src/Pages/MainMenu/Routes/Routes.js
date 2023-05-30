@@ -1,5 +1,5 @@
 import React from 'react';
-import {Route, Routes} from "react-router-dom";
+import {Route, Routes, useNavigate} from "react-router-dom";
 import {Link} from "react-router-dom";
 import Sidebar from "../Sidebar"
 import Desserts from "../pages/Deserts";
@@ -9,12 +9,15 @@ import NationalFoods from "../pages/NationalFoods";
 import EasternCuisine from "../pages/EasternCuisine";
 import FastFoods from "../pages/FastFoods";
 
-import IconImg from "../../../images/hero-wave-right.svg";
 import IconImg2 from "../../../images/hero-wave-right.svg";
+import IconImg from "../../../images/hero-wave.svg";
 import { BsArrowRight } from 'react-icons/bs';
 
 const Main = () => {
-
+    const nav = useNavigate()
+const getNav = () => {
+  nav("AboutMenu")
+}
 
     return (
 <div  id="rout" style={{background:"  #1d1f23"}}>
@@ -31,7 +34,7 @@ const Main = () => {
                 Delightfully Delicious</h1>
 
         </div>
-    <div className="rout--all d-flex p-3">
+    <div className="rout--all">
         <Sidebar/>
         <Routes>
             <Route path='desert' element={<Desserts/> }/>
@@ -44,16 +47,7 @@ const Main = () => {
 </div>
 
         <div  className="rout--link ">
-            <ul >
-                <li className="nav-item ">
-                    <Link to="AboutMenu" style={{color:"white"}} className="nav-link text-white">
-                        <span style={{
-                        }} >  View Full menu  <BsArrowRight/> </span>
-                    </Link>
-                </li>
-
-            </ul>
-
+                        <button onClick={() => getNav()}>  View Full menu  <BsArrowRight/> </button>
         </div>
     </div>
 
