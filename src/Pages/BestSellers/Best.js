@@ -1,9 +1,5 @@
 import React from 'react';
 import hero from './../../images/hero-wave.svg'
-import bes from './../../images/Best log.svg'
-import frem19 from './../../images/Frame 19.png'
-import frem20 from './../../images/Frame 20.png'
-import Slider from "react-slick";
 
 const Best = () => {
     const settings = {
@@ -71,19 +67,3 @@ const Best = () => {
 export default Best;
 
 
-
-// <Slider {...settings}>
-//
-//     <div>
-//         <img className="best--img1" src={frem19} alt="img"/>
-//     </div>
-//     <div>
-//         <img className="best--img2" src={frem20} alt="img"/>
-//     </div>
-//     <div>
-//         <img className="best--img2" src={frem20} alt="img"/>
-//     </div>
-//     <div>
-{/*        <img className="best--img2" src={frem20} alt="img"/>*/}
-{/*    </div>*/}
-{/*</Slider>*/}
