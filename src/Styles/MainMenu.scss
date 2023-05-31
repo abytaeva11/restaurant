@@ -1,339 +1,966 @@
-#sidebar {
-  width: 40%;
-  //height: 60%;
-
-  .sidebar--all {
-    hr {
-      background: #E5E5E5;
-      width: 70%;
-      }
-
-    width: 100%;
-    height: 200px;
+  #mainMenu {
+  .mainMenu {
     display: flex;
-    flex-wrap: wrap;
     flex-direction: column;
     align-items: center;
+    padding-top: 165px;
 
-    .sidebar {
-          width: 60%;
-          background: #1F2731;
+    &--parentBtn{
+      cursor: pointer;
+      transition: .4s;
+      &__btn{
+        cursor: pointer;
+        padding: 0 10px;
+        font-size: 24px;
+      }
+
+      &__topLine{
+        width: 100px;
+        height: 2px;
+        background: #EF272C;
+        transition: .4s;
+      }
+
+      &__buttonLine{
+        width: 100px;
+        transition: .4s;
+        height: 2px;
+        background: #EF272C;
+        margin-left: 132px;
+      }
+
+      button{
+        font-family: 'Spartan', sans-serif;
+        font-weight: 600;
+        font-size: 12px;
+        text-transform: uppercase;
+        padding: 14px 40px;
+        color: #FFFFFF;
+        margin: 10px 0;
+        cursor: pointer;
+        background: transparent;
+        border: #EF272C 3px solid;
+        display: flex;
+        align-items: center;
+      }
+
+      &:hover{
+        transform: scale(1.1);
+        .mainMenu--parentBtn__topLine{
+          margin-left: 40px;
+          width: 150px;
+        }
+        .mainMenu--parentBtn__buttonLine{
+          margin-left: 40px;
+          width: 150px;
+        }
+      }
+    }
+
+    &--title {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      padding: 20px 0;
+
+      &__name {
+        font-family:"Shalimar",san-serif;
+        font-weight: 400;
+        font-size: 40px;
+        margin: 0 40px;
+        color: #FFFFFF;
+      }
+
+      &__titleBlock {
+        display: flex;
+        flex-direction: column;
+
+        &--left {
+          padding: 2px 0;
+        }
+
+        &--line {
+          width: 51.26px;
+          height: -1px;
+          border: 2px solid #EF272C;
+        }
+      }
+    }
+
+    &--aboutFoods {
+      width: 34%;
+      margin-left: 60px;
+      font-family: 'Spartan';
+      font-weight: 600;
+      font-size: 40px;
+      line-height: 61px;
+      color: #FFFFFF;
+      padding: 20px 0 64px 0;
+    }
+
+    &--block {
+      display: flex;
+      justify-content: space-between;
+      align-items: start;
+
+      &--blockChild {
+        &__foods {
           display: flex;
-          flex-direction: column;
-          align-items: center;
-          ul.nav {
-            width: 100%;
-            list-style: none;
+          justify-content: space-between;
+          align-items: start;
+
+          &--allBtn {
+            margin-right: 100px;
             display: flex;
-            align-items: center;
             flex-direction: column;
+            align-items: start;
+            width: 380px;
+            overflow: hidden;
+            &__btn {
+              background: #1F2731;
+              width: 94%;
+              height: 63px;
+              transition: .4s;
+              display: flex;
+              flex-direction: column;
+              align-items: center;
+              position: relative;
 
-            li.nav-item {
-              width: 100%;
-              a.nav-link {
-                color: #fff;
-                text-decoration: none;
-                display: block;
-                padding: 18px 0;
-                width: 100%;
-                &:hover {
-                  background-color: #EF272C;
-                  width: 100%;
+              &--line {
+                transition: .4s;
+                width: 60px;
+                position: absolute;
+                background: white;
+                left: -60px;
+                top: 50%;
+                height: 3px;
+              }
+
+              button {
+                background: transparent;
+                padding: 12px 0;
+                width: 240px;
+                font-family: 'Silk Serif';
+                font-weight: 600;
+                font-size: 24px;
+                border: none;
+                color: #FFFFFF;
+                border-bottom: white solid .5px;
+                cursor: pointer;
+                transition: .5s;
+              }
+
+              &:hover{
+                background: rgba(239, 39, 44, 0.27);
+
+                button {
+                  border: none;
                 }
 
-                span {
-                  font-family: 'Silk Serif';
-                  font-weight: 600;
-                  font-size: 24px;
-
-                }
-                .line-wrapper{
-                  margin: -15px 0 15px 0;
-                }
               }
             }
           }
         }
       }
 
-  }
-.pages{
-  background: #1B2026;
-  width: 67%;
-  .deserts {
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    color: #FFFFFF;
-    margin-right:100px;
-    background: #1B2026;
-    p{
-      font-family: 'Spartan';
-      font-size:16px;
-      width: 512px;
-      height: 20px;
+
+      &__onlyFood {
+        &__parent {
+          display: flex;
+          flex-direction: column;
+          align-items: start;
+          padding-bottom: 40px;
+
+          &--about {
+            display: flex;
+            justify-content: space-between;
+            align-items: end;
+            padding: 16px 0;
+
+            h1{
+              font-family: 'Silk Serif', sans-serif;
+              font-weight: 600;
+              font-size: 20px;
+              color: #FFFFFF;
+            }
+            div{
+              width: 555px;
+              border: 1px dashed darkgrey;
+              margin: 0 20px;
+            }
+            h3{
+              font-family: 'Silk Serif',cursive;
+              font-weight: 600;
+              font-size: 20px;
+              color: #EF272C;
+            }
+          }
+
+          &--order{
+            display: flex;
+            justify-content: space-between;
+            align-items: end;
+            p{
+              font-family: 'Spartan',sans-serif;
+              font-weight: 400;
+              font-size: 14px;
+              line-height: 20px;
+              color: #FFFFFF;
+              width: 80%;
+            }
+
+            button{
+              cursor: pointer;
+              font-family: 'Silk Serif',sans-serif;
+              font-weight: 600;
+              font-size: 16px;
+              border: none;
+              color: #FFFFFF;
+              border-bottom: 1px white solid;
+              background: transparent;
+              margin-bottom: -20px;
+            }
+          }
+
+        }
+      }
     }
-&--all{
-  display: flex;
-  h4{
-    font-family: 'Silk Serif';
-    font-style: normal;
-    font-weight: 600;
-    font-size: 20px;
-    line-height: 31px;
-  }
-
-  h2{
-    font-family: 'Silk Serif';
-    font-style: normal;
-    font-weight: 600;
-    font-size: 20px;
-    color: #EF272C;
-
-  }
-  h1{
-    color: white;
-  }
-  h5{
-    font-weight: 600;
-    font-size: 20px;
-    margin:0 20px;
-
   }
 }
-    .order-now {
-      display: flex;
-      justify-content: flex-end;
-      padding-bottom: 15px ;
 
-      ul {
-                  list-style: none;
-                  padding: 0;
-                  margin: 0;
+@media (max-width: 1440px) {
+  #mainMenu{
+    .mainMenu{
+      &--title{
+        &__titleBlock{
+
+        }
+      }
+      &--aboutFoods{
+
+      }
+      &--block{
+        &--blockChild{
+
+        }
+        &--foodsName{
+
+        }
+        &__onlyFood{
+          width: 100%;
+        }
+      }
+    }
+  }
+}
+@media (max-width: 1200px) {
+  #mainMenu{
+    .mainMenu{
+      &--title{
+        &__titleBlock{
+
+        }
+      }
+      &--aboutFoods{
+        width: 40%;
+      }
+      &--block{
+        &--blockChild{
+
+        }
+        &--foodsName{
+        }
+        &__onlyFood{
+          width: 100%;
+          &__parent{
+            &--about{
+              div{
+                width: 384px;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
+@media (max-width: 1024px) {
+  #mainMenu{
+    .mainMenu{
+      padding-top: 50px;
+      &--parentBtn{
+        margin-top: 30px;
+      }
+      &--title{
+        &__titleBlock{
+
+        }
+      }
+      &--aboutFoods{
+        width: 45%;
+      }
+      &--block{
+        &--blockChild{
+          &__foods{
+            &--allBtn{
+              margin-right: 65px;
+              &__btn{
+                width: 90%;
+                height: 65px;
+                &--line{
+                }
+              }
+            }
+          }
+        }
+        &--foodsName{
+          width: 100%;
+
+        }
+        &__onlyFood{
+          width: 100%;
+          &__parent{
+            padding-bottom: 30px;
+            &--order{
+              p{
+                font-weight: 300;
+                font-size: 12px;
+                width: 65%;
+              }
+            }
+            &--about{
+              div{
+                width: 320px;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
+@media (max-width: 996px) {
+  #mainMenu{
+    .mainMenu{
+      &--parentBtn{
+        margin: 30px 0 0 0;
+      }
+      &--title{
+        &__titleBlock{
+
+        }
+      }
+      &--aboutFoods{
+        width: 50%;
+      }
+      &--block{
+        &--blockChild{
+          margin-right: 20px;
+          &__foods{
+            &--allBtn{
+              margin-right: 45px;
+              &__btn{
+                width: 90%;
+                height: 65px;
+                &--line{
+
+                }
+              }
+            }
+          }
+        }
+        &--foodsName{
+          width: 100%;
+        }
+        &__onlyFood{
+          width: 100%;
+          &__parent{
+            padding-bottom: 30px;
+            &--order{
+              p{
+                font-weight: 300;
+                font-size: 12px;
+                width: 69%;
+              }
+            }
+            &--about{
+              div{
+                width: 300px;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
+@media (max-width: 768px) {
+  #mainMenu{
+    .mainMenu{
+
+      &--parentBtn{
+        margin: 40px 0 0 0;
+
+      }
+      &--title{
+        &__titleBlock{
+
+        }
+      }
+      &--aboutFoods{
+        width: 60%;
+      }
+      &--block{
+        &--blockChild{
+          margin-left: 118px;
+          &__foods{
+            &--allBtn{
+              margin-right: 45px;
+              &__btn{
+                width: 92%;
+                height: 70px;
+                &--line{
+
+                }
+              }
+            }
+          }
+        }
+        &--foodsName{
+          display: none;
+        }
+        &__onlyFood{
+          width: 100%;
+          &__parent{
+            padding-bottom: 30px;
+            &--order{
+              p{
+                font-weight: 300;
+                font-size: 12px;
+                width: 69%;
+              }
+            }
+            &--about{
+              div{
+                width: 300px;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 576px) {
+  #mainMenu {
+    .mainMenu {
+      &--parentBtn{
+        margin: 40px 0;
+        &__btn{
+
+        }
+
+        &__topLine{
+
+        }
+
+        &__buttonLine{
+
+        }
+
+        button{
+
+        }
+
+        &:hover{
+
+          .mainMenu--parentBtn__topLine{
+
+          }
+          .mainMenu--parentBtn__buttonLine{
+
+          }
+        }
+      }
+      &--title {
+        &__name {
+
+        }
+
+        &__titleBlock {
+
+          &--left {
+            padding: 0;
+          }
+
+          &--line {
+
+          }
+        }
+      }
+      &--aboutFoods {
+        font-size:35px;
+        line-height: 53px;
+        width: 78%;
+        padding: 0 0 36px 0;
+      }
+      &--block {
+        width: 64%;
+        &--foodsName{
+          display: none;
+        }
+
+        &--blockChild {
+          margin-left: 0;
+          &__foods {
+
+
+            &--allBtn {
+              margin-right: 0;
+              &__btn {
+
+                &--line {
+                  display: none;
                 }
 
-                li {
-                  margin: 10px 0;
+                button {
 
-                  a.nav-link {
-                    text-decoration: none;
-                    color: #fff;
-                    position: relative;
+                }
 
-                    &:hover {
-                      &::after {
-                        width: 100%;
-                      }
-                    }
+                &:hover{
+
+                  button {
+
+                  }
+
+                }
+              }
+            }
+          }
+        }
+
+
+        &__onlyFood {
+
+          &__parent {
+
+
+            &--about {
+
+              h1{
+
+              }
+              div{
+
+              }
+              h3{
+
+              }
+            }
+
+            &--order{
+
+              p{
+
+              }
+
+              button{
+
+              }
+            }
+
+          }
+        }
+
+      }
     }
   }
-}}}
-//------------rout--------------
-#rout{
-  .rout{
-    background: #1B2026;
-    width: 100%;
-    &--all{
-      display: flex;
-      padding: 30px;
-    }
-    &--teen{
-      display: flex;
-      flex-direction: column;
-      justify-content: center;
-      align-items: center;
-      height: 40vh;
+}
+@media (max-width: 451px) {
+  #mainMenu {
+    .mainMenu {
 
-      &--img {
-        display: flex;
-        color: #FFFFFF;
-        img{
-          width: 1440px;
-          height: 1191px;
+      &--parentBtn{
+        margin-left: 25px;
+        &__btn{
 
         }
-        h3{
-          font-family: "League Spartan", sans-serif;
+
+        &__topLine{
+
+        }
+
+        &__buttonLine{
+
+        }
+
+        button{
+
+        }
+
+        &:hover{
+
+          .mainMenu--parentBtn__topLine{
+
+          }
+          .mainMenu--parentBtn__buttonLine{
+
+          }
         }
       }
-    }
-    &--link {
-      display: flex;
-      align-content: center;
-      justify-content: center;
-      width: 60%;
-      button{
-        border: 1.6px solid #EF272C;
-      background: transparent;
-        width: 220px;
-        height: 42px;
-        margin-top: 200px;
-        font-style: normal;
-        font-weight: 600;
-        font-size: 12px;
-        line-height: 13px;
-        text-transform: uppercase;
-        color: #FFFFFF;
+
+      &--title {
+        padding: 9px 0;
+
+        &__name {
+
+        }
+
+        &__titleBlock {
+
+          &--left {
+
+          }
+
+          &--line {
+
+          }
+        }
+      }
+
+      &--aboutFoods {
+        font-weight: 400;
+        font-size: 33px;
+        line-height: 47px;
+        width: 90%;
+        padding: 0 0 34px 0;
+      }
+
+      &--block {
+        width: 82%;
+
+        &--blockChild {
+          &__foods {
+
+
+            &--allBtn {
+
+              &__btn {
+
+                &--line {
+
+                }
+
+                button {
+
+                }
+
+                &:hover{
+
+                  button {
+
+                  }
+
+                }
+              }
+            }
+          }
+        }
+
+
+        &__onlyFood {
+
+          &__parent {
+
+
+            &--about {
+
+              h1{
+
+              }
+              div{
+
+              }
+              h3{
+
+              }
+            }
+
+            &--order{
+
+              p{
+
+              }
+
+              button{
+
+              }
+            }
+
+          }
+        }
+
       }
     }
   }
 }
-
-@media (max-width: 1268px) {
-  #sidebar{
-    hr{
-      width: 96%;
-    }
-    ul li a:hover {
-      width:96%;
-    }
-  }
-.deserts{
-  &--all{
-    width:40%;
-  }
-}
-
-
-//}
-//@media (max-width: 992px) {
-//  #sidebar{
-//&--sidebar{
-//  .sidebar{
-//    width: 100%;
-//  }
-//}  }
-  .pages{
-    width: 72%;
-    .order-now {
-      display: flex;
-      justify-content: flex-start;
-      margin-left: 293px;
-      font-size: 11px;
-    }
-    h5 {
-      width: 40%;
-      font-size: 10px;
-    }
-    p {
-      margin-top: 0;
-      margin-bottom: 1rem;
-      width: 75%;
-    }
-    h2 {
-      font-size: 19px;
-      color: #EF272C;
-      margin-left: 58px;
-    }
-    h4 {
-      width: 90px;
-      height: 40px;
-      font-size: 16px;
-    }
-
-
-  }
-  #sidebar{
+@media (max-width: 375px) {
+  #mainMenu {
     width: 100%;
-    ul li a:hover {
-      width:78%;
-    }
-    .sidebar{
-      width:100%;
+    .mainMenu {
+      padding-top: 16px;
+      &--parentBtn{
 
-      li {
+        &__btn{
 
-        padding: 0;
-        margin: 0;
-        top: 0;
+        }
+
+        &__topLine{
+          width: 86px;
+        }
+
+        &__buttonLine{
+          width: 86px;
+          margin-left: 103px;
+        }
+
+        button{
+          padding: 8px 18px;
+        }
+
+        &:hover{
+
+          .mainMenu--parentBtn__topLine{
+
+          }
+          .mainMenu--parentBtn__buttonLine{
+
+          }
+        }
+      }
+
+      &--title {
+
+
+        &__name {
+          margin: 0 25px;
+        }
+
+        &__titleBlock {
+
+          &--left {
+
+          }
+
+          &--line {
+
+          }
+        }
+      }
+
+      &--aboutFoods {
+        width: 85%;
+        font-size: 27px;
+        line-height: 41px;
+        margin-left: 25px;
+      }
+
+      &--block {
+        width: 83%;
+
+        &--blockChild {
+          &__foods {
+
+
+            &--allBtn {
+              width: 300px;
+
+              &__btn {
+
+                &--line {
+
+                }
+
+                button {
+                  width: 198px;
+                }
+
+                &:hover{
+
+                  button {
+
+                  }
+
+                }
+              }
+            }
+          }
+        }
+
+
+        &__onlyFood {
+
+          &__parent {
+
+
+            &--about {
+
+              h1{
+
+              }
+              div{
+
+              }
+              h3{
+
+              }
+            }
+
+            &--order{
+
+              p{
+
+              }
+
+              button{
+
+              }
+            }
+
+          }
+        }
+
       }
     }
   }
-  #rout{
-    .rout--link {
-      margin-left: 325px;
-    }
-  }
-
 }
+@media (max-width: 320px) {
+  #mainMenu {
+    .mainMenu {
 
-@media (max-width: 992px) {
-  #sidebar{
-      &--all{
-        .sidebar{
-          width: 100%;
-        }}
-    hr{
-      width: 85%;
-    }
-    ul li a:hover {
-      width:85%;
-    }
-  }}
+      &--parentBtn{
 
-@media (max-width: 800px) {
-  #sidebar{
-    hr{
-      width: 61%;
-    }
-    ul li a:hover {
-      width:61%;
-    }
-}}
-@media (max-width: 768px) {
-  #sidebar{
-    hr{
-      width: 93%;
-    }
-    ul li a:hover {
-      width:93%;
-    }
-    #rout{
-      .rout--link {
-        margin-left: 300px;
+        &__btn{
+
+        }
+
+        &__topLine{
+
+        }
+
+        &__buttonLine{
+
+        }
+
+        button{
+
+        }
+
+        &:hover{
+
+          .mainMenu--parentBtn__topLine{
+
+          }
+          .mainMenu--parentBtn__buttonLine{
+
+          }
+        }
+      }
+
+      &--title {
+
+
+        &__name {
+
+        }
+
+        &__titleBlock {
+
+          &--left {
+
+          }
+
+          &--line {
+
+          }
+        }
+      }
+
+      &--aboutFoods {
+        width: 96%;
+        font-size: 24px;
+        line-height: 34px;
+        margin-left: 38px;
+      }
+
+      &--block {
+
+        width: 97%;
+
+        &--blockChild {
+          &__foods {
+
+
+            &--allBtn {
+
+              &__btn {
+
+                &--line {
+
+                }
+
+                button {
+
+                }
+
+                &:hover{
+
+                  button {
+
+                  }
+
+                }
+              }
+            }
+          }
+        }
+
+
+        &__onlyFood {
+
+          &__parent {
+
+
+            &--about {
+
+              h1{
+
+              }
+              div{
+
+              }
+              h3{
+
+              }
+            }
+
+            &--order{
+
+              p{
+
+              }
+
+              button{
+
+              }
+            }
+
+          }
+        }
+
       }
     }
-}
-  .pages{
-    display: none;
   }
 }
-@media (max-width: 678px) {
-  #sidebar{
-    hr{
-      width: 88%;
-    }
-    ul li a:hover {
-      width:88%;
-    }
-  }
-  #rout{
-    .rout--link {
-      margin-left: 245px;
-    }
-  }
-}
-
-@media (max-width: 450px) {
-  #rout{
-    .rout--link {
-      margin-left: 85px;
-    }
-  }
-  #sidebar {
-    hr {
-      width: 88%;
-    }
-
-    ul li a:hover {
-      width: 88%;
-    }
-
-    ul li a:hover {
-      width: 86%;
-    }
-  }}
-
-
-
 

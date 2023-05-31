@@ -13,7 +13,7 @@ const Visit = () => {
                 <div className="visit">
                     <div className="visit--title">
                         <img src={wave} alt=""/>
-                        <span className="visit--title__sub">Restaurant</span>
+                        <span style={{marginLeft:"30px"}} className="visit--title__sub">Restaurant</span>
                         <h2>Join Us  for  <br/>
                             Happy Hours</h2>
                         <p className="visit--title__exs">
@@ -30,14 +30,14 @@ const Visit = () => {
                                 <br/>
                                 Fri-Sun: 10:00 am - 02:00 am</p>
                         </p>
-                        <button style={{margin:"10px 0"}}>Purchase gift card
+                        <button style={{paddingBottom:"-30px"}}>Purchase gift card
                             <svg width="12" height="12" viewBox="0 0 12 12" fill="none" xmlns="http://www.w3.org/2000/svg">
                                 <path d="M7.21484 2.96509L10.2498 6.00009L7.21484 9.03509" stroke="white" stroke-width="1.5" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
                                 <path d="M1.75 6H10.165" stroke="white" stroke-width="1.5" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
                             </svg>
                         </button>
                     </div>
-                    <div className="visit--nav">
+                    <div className="visit--nav" style={{padding:"30px"}}>
                         <p className="visit--nav__first">contact Info</p>
                         <p className="visit--nav__tel">
                             <span><BsFillTelephoneOutboundFill/></span>+771219900
