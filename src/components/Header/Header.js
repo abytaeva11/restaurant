@@ -36,25 +36,25 @@ const Header = () => {
                             </div>
                         </nav>
                     </div>
-                    <NavLink to={'/'}>
+                    <Link to={'/'}>
                         <h1> Restaurant</h1>
-                    </NavLink>
+                    </  Link>
                     <nav className="header__navbar">
-                        <NavLink to='/'>
-                            interior
-                        </NavLink>
+                        <Link to='/'>
+                            Interior
+                        </Link>
 
-                        <NavLink   to='about'>
+                        <Link   to='about'>
                             About Us
-                        </NavLink>
+                        </Link>
 
-                        <NavLink to='AboutMenu'>
+                        <Link to='AboutMenu'>
                             Menu
-                        </NavLink>
+                        </Link>
 
-                        <NavLink to='contact'>
+                        <Link to='contact'>
                             Contacts
-                        </NavLink>
+                        </Link>
 
                         <div className="header__navbar--input">
                             <input type="text" placeholder="Search"/>

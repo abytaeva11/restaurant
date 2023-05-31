@@ -1,6 +1,5 @@
 import React from 'react';
-import vektor from './../../images/Vector 2.svg'
-import line from './../../images/Line 4.svg'
+import hero from './../../images/hero-wave.svg'
 import bes from './../../images/Best log.svg'
 import frem19 from './../../images/Frame 19.png'
 import frem20 from './../../images/Frame 20.png'
@@ -21,14 +20,13 @@ const Best = () => {
             <div className="container">
                 <div className="best">
                     <div className="best--block">
-                        <div className="best--block__group">
+                        <div className="best--block__group" style={{display:"flex",alignItems:"center"}}>
                             <div className="best--block__group--img">
-                                <img src={vektor} alt="img"/>
-                                <img src={line} alt="img"/>
+                                <img src={hero} alt="img"/>
                             </div>
-                            <img className="best--block__group--image" src={bes} alt="img"/>
+                            <h3 style={{marginLeft:"30px"}}>Best Sellers</h3>
                         </div>
-                        <h1>You Only Reserve
+                        <h1>You Only Reserve <br/>
                             Exception</h1>
                         <p>Each rrrrrrr location has a menu that`s curated just for them.
                             See what new at your Cafesio and You`ll find Cafesio

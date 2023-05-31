@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;1,100;1,200;1,300&display=swap');
 
 @import "Styles/Header.scss";
 @import "Styles/Hero.scss";
@@ -14,7 +15,7 @@
 }
 body{
     font-family: "League Spartan", sans-serif;
-    background: #525252;
+    background: #1B2026;
 }
 html{
     scroll-behavior: smooth;
@@ -23,7 +24,7 @@ html{
     width: 10px;
 }
 ::-webkit-scrollbar-track{
-    background: rgba(190, 188, 188, 0.54);
+    background: #1B2026;
 }
 ::-webkit-scrollbar-thumb{
     background: rgba(16, 13, 13, 0.47);;
