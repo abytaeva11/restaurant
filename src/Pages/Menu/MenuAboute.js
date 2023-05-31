@@ -12,7 +12,6 @@ const AboutFoods = () => {
     const handleTabClick = (id) => {
         setSelectedTab(id);
     };
-
     return (
         <div id="aboutFoods">
             <div className="container">
@@ -51,9 +50,10 @@ const AboutFoods = () => {
                                                 }}>{el.title}</button>
                                                 <div
                                                     style={{
-                                                    transition: ".4s",
-                                                    left: selectedTab === el.id ? "" : "-60px",
-                                                }} className="mainMenu--block--blockChild__foods--allBtn__btn--line"/>
+                                                        transition: ".4s",
+                                                        left: selectedTab === el.id ? "" : "-60px",
+                                                    }}
+                                                    className="mainMenu--block--blockChild__foods--allBtn__btn--line"/>
                                             </div>
                                         </div>
                                     </div>
@@ -68,7 +68,7 @@ const AboutFoods = () => {
                                     Foods.slice(0, 1).map(el => (
                                         <div className="aboutFoods--block__addedFoods--spend">
                                             {
-                                                selectedTab === el.id ?   el.nameFoots.slice(0, 1).map(el => (
+                                                selectedTab === el.id ? el.nameFoots.slice(0, 1).map(el => (
                                                     <div className="aboutFoods--block__addedFoods--spend__feel">
                                                         <div
                                                             className="aboutFoods--block__addedFoods--spend__feel--keep">
@@ -121,7 +121,7 @@ const AboutFoods = () => {
                                                             </div>
                                                         </div>
                                                     </div>
-                                                )):""
+                                                )) : ""
                                             }
                                         </div>
                                     ))
