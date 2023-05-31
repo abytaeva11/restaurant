@@ -457,48 +457,8 @@
     .mainMenu {
       &--parentBtn{
         margin: 40px 0;
-        &__btn{
-
-        }
-
-        &__topLine{
-
-        }
-
-        &__buttonLine{
-
-        }
-
-        button{
-
-        }
-
-        &:hover{
-
-          .mainMenu--parentBtn__topLine{
-
-          }
-          .mainMenu--parentBtn__buttonLine{
-
-          }
-        }
       }
-      &--title {
-        &__name {
 
-        }
-
-        &__titleBlock {
-
-          &--left {
-            padding: 0;
-          }
-
-          &--line {
-
-          }
-        }
-      }
       &--aboutFoods {
         font-size:35px;
         line-height: 53px;
@@ -523,56 +483,10 @@
                 &--line {
                   display: none;
                 }
-
-                button {
-
-                }
-
-                &:hover{
-
-                  button {
-
-                  }
-
-                }
               }
             }
           }
         }
-
-
-        &__onlyFood {
-
-          &__parent {
-
-
-            &--about {
-
-              h1{
-
-              }
-              div{
-
-              }
-              h3{
-
-              }
-            }
-
-            &--order{
-
-              p{
-
-              }
-
-              button{
-
-              }
-            }
-
-          }
-        }
-
       }
     }
   }
@@ -583,52 +497,11 @@
 
       &--parentBtn{
         margin-left: 25px;
-        &__btn{
-
-        }
-
-        &__topLine{
-
-        }
-
-        &__buttonLine{
-
-        }
-
-        button{
-
-        }
-
-        &:hover{
-
-          .mainMenu--parentBtn__topLine{
-
-          }
-          .mainMenu--parentBtn__buttonLine{
-
-          }
-        }
       }
 
       &--title {
         padding: 9px 0;
-
-        &__name {
-
-        }
-
-        &__titleBlock {
-
-          &--left {
-
-          }
-
-          &--line {
-
-          }
-        }
       }
-
       &--aboutFoods {
         font-weight: 400;
         font-size: 33px;
@@ -639,68 +512,6 @@
 
       &--block {
         width: 82%;
-
-        &--blockChild {
-          &__foods {
-
-
-            &--allBtn {
-
-              &__btn {
-
-                &--line {
-
-                }
-
-                button {
-
-                }
-
-                &:hover{
-
-                  button {
-
-                  }
-
-                }
-              }
-            }
-          }
-        }
-
-
-        &__onlyFood {
-
-          &__parent {
-
-
-            &--about {
-
-              h1{
-
-              }
-              div{
-
-              }
-              h3{
-
-              }
-            }
-
-            &--order{
-
-              p{
-
-              }
-
-              button{
-
-              }
-            }
-
-          }
-        }
-
       }
     }
   }
@@ -711,11 +522,6 @@
     .mainMenu {
       padding-top: 16px;
       &--parentBtn{
-
-        &__btn{
-
-        }
-
         &__topLine{
           width: 86px;
         }
@@ -728,16 +534,6 @@
         button{
           padding: 8px 18px;
         }
-
-        &:hover{
-
-          .mainMenu--parentBtn__topLine{
-
-          }
-          .mainMenu--parentBtn__buttonLine{
-
-          }
-        }
       }
 
       &--title {
@@ -745,17 +541,6 @@
 
         &__name {
           margin: 0 25px;
-        }
-
-        &__titleBlock {
-
-          &--left {
-
-          }
-
-          &--line {
-
-          }
         }
       }
 
@@ -777,11 +562,6 @@
               width: 300px;
 
               &__btn {
-
-                &--line {
-
-                }
-
                 button {
                   width: 198px;
                 }
@@ -802,21 +582,6 @@
         &__onlyFood {
 
           &__parent {
-
-
-            &--about {
-
-              h1{
-
-              }
-              div{
-
-              }
-              h3{
-
-              }
-            }
-
             &--order{
 
               p{
