@@ -16,17 +16,17 @@ const Header = () => {
                         }}
                         className="header__menu">
                         <nav className="header__menu--navbar">
-                            <NavLink onClick={() => setBurger(true)} >
+                            <NavLink to="/" onClick={() => setBurger(true)} >
                                 interior
                             </NavLink>
-                            <Link to="/about" onClick={() => setBurger(false)} >
+                            <Link to="about" onClick={() => setBurger(false)} >
                                 About Us
                             </Link>
-                            <NavLink to={"/menu"} onClick={() => setBurger(false)} >
+                            <NavLink to="AboutMenu" onClick={() => setBurger(false)} >
                                 Menu
                             </NavLink>
 
-                            <NavLink onClick={() => setBurger(true)} >
+                            <NavLink to="contact" onClick={() => setBurger(true)} >
                                 Contacts
                             </NavLink>
                             <div className="header__menu--navbar__languages">

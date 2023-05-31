@@ -6,7 +6,7 @@
       width: 500px;
       margin: 0 auto;
       h3{
-        font-family: 'Shalimar';
+        font-family: 'Shalimar',san-serif;
         font-weight: 400;
         font-size: 40px;
         color: #FFFFFF;
@@ -44,7 +44,7 @@
       }
     }
     &--slider{
-      width: 46%;
+      width: 400px;
       margin: 0 auto;
       gap: 0 10px;
       &--img1{
@@ -97,3 +97,41 @@
     }
   }
 }
+//@media screen and (min-width: 768px ) and (max-width: 1200px){
+//  #best{
+//    .best{
+//      padding: 80px 0 0 0;
+//&--slider{
+//    img{
+//      width: 200px;
+//    }
+//}
+//    }
+//  }
+//}
+//@media screen and (min-width: 300px) and (max-width: 992px){
+//  #best{
+//    .best{
+//      display: flex;
+//      flex-direction: column;
+//      padding: 80px 0 0 0;
+//      &--block{
+//        h1{
+//          font-size: 22px;
+//          width: 50%;
+//        }
+//        p{
+//          font-size: 12px;
+//          width: 50%;
+//        }
+//      }
+//      &--slider{
+//        width: 300px;
+//        margin-top: 30px;
+//        img{
+//          width: 100px;
+//        }
+//      }
+//    }
+//  }
+//}
