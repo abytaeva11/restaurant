@@ -23,6 +23,7 @@ export const Foods = [
                 images:DessertsMenu1,
                 name:"Ice Cream",
                 price:"9.11",
+                text: "Lörem ipsum askstoppad defaktisk, logokemi. Diastat retos att endomatisk. Geogehet pultvätta, om pneumativ.",
                 desert:"soda,cream,milk,sugar"
             },
             {
@@ -30,6 +31,7 @@ export const Foods = [
                 images:DessertsMenu2,
                 name:"Ice Cream",
                 price:"9.11",
+                text: "Lörem ipsum askstoppad defaktisk, logokemi. Diastat retos att endomatisk. Geogehet pultvätta, om pneumativ.",
                 desert:"soda,cream,milk,sugar"
             },
             {
@@ -37,6 +39,7 @@ export const Foods = [
                 images:DessertsMenu3,
                 name:"Ice Cream",
                 price:"9.11",
+                text: "Lörem ipsum askstoppad defaktisk, logokemi. Diastat retos att endomatisk. Geogehet pultvätta, om pneumativ.",
                 desert:"soda,cream,milk,sugar"
             },
             {
@@ -44,6 +47,7 @@ export const Foods = [
                 images:DessertsMenu4,
                 name:"Ice Cream",
                 price:"9.11",
+                text: "Lörem ipsum askstoppad defaktisk, logokemi. Diastat retos att endomatisk. Geogehet pultvätta, om pneumativ.",
                 desert:"soda,cream,milk,sugar"
             },
             {
@@ -51,6 +55,7 @@ export const Foods = [
                 images:DessertsMenu5,
                 name:"Ice Cream",
                 price:"9.11",
+                text: "Lörem ipsum askstoppad defaktisk, logokemi. Diastat retos att endomatisk. Geogehet pultvätta, om pneumativ.",
                 desert:"soda,cream,milk,sugar"
             },
             {
@@ -58,7 +63,9 @@ export const Foods = [
                 images:DessertsMenu6,
                 name:"Ice Cream",
                 price:"9.11",
-                desert:"soda,cream,milk,sugar"
+                desert:"soda,cream,milk,sugar",
+                text: "Lörem ipsum askstoppad defaktisk, logokemi. Diastat retos att endomatisk. Geogehet pultvätta, om pneumativ.",
+
             },
         ]
     },
@@ -72,39 +79,51 @@ export const Foods = [
                 images:HotDrinks,
                 name:"ASSAM",
                 price:"9.11",
-                desert:"soda,cream,milk,sugar"
+                desert:"soda,cream,milk,sugar",
+                text: "Lörem ipsum askstoppad defaktisk, logokemi. Diastat retos att endomatisk. Geogehet pultvätta, om pneumativ.",
+
             },
             {
                 id:2,
                 images:HotDrinks,
                 name:"ASSAM",
                 price:"9.11",
-                desert:"soda,cream,milk,sugar"
+                desert:"soda,cream,milk,sugar",
+                text: "Lörem ipsum askstoppad defaktisk, logokemi. Diastat retos att endomatisk. Geogehet pultvätta, om pneumativ.",
+
             }, {
                 id:3,
                 images:HotDrinks,
                 name:"ASSAM",
                 price:"9.11",
-                desert:"soda,cream,milk,sugar"
+                desert:"soda,cream,milk,sugar",
+                text: "Lörem ipsum askstoppad defaktisk, logokemi. Diastat retos att endomatisk. Geogehet pultvätta, om pneumativ.",
+
             }, {
                 id:4,
                 images:HotDrinks,
                 name:"ASSAM",
                 price:"9.11",
-                desert:"soda,cream,milk,sugar"
+                desert:"soda,cream,milk,sugar",
+                text: "Lörem ipsum askstoppad defaktisk, logokemi. Diastat retos att endomatisk. Geogehet pultvätta, om pneumativ.",
+
             }, {
                 id:5,
                 images:HotDrinks,
                 name:"ASSAM",
                 price:"9.11",
-                desert:"soda,cream,milk,sugar"
+                desert:"soda,cream,milk,sugar",
+                text: "Lörem ipsum askstoppad defaktisk, logokemi. Diastat retos att endomatisk. Geogehet pultvätta, om pneumativ.",
+
             },
             {
                 id:6,
                 images:HotDrinks,
                 name:"ASSAM",
                 price:"9.11",
-                desert:"soda,cream,milk,sugar"
+                desert:"soda,cream,milk,sugar",
+                text: "Lörem ipsum askstoppad defaktisk, logokemi. Diastat retos att endomatisk. Geogehet pultvätta, om pneumativ.",
+
             }
         ]
     },
@@ -118,39 +137,50 @@ export const Foods = [
                 images:ColdDrinksImg,
                 name:" Martin",
                 price:"9.11",
-                desert:"soda,cream,milk,sugar"
+                desert:"soda,cream,milk,sugar",
+                text: "Lörem ipsum askstoppad defaktisk, logokemi. Diastat retos att endomatisk. Geogehet pultvätta, om pneumativ.",
+
             },
             {
                 id:2,
                 images:ColdDrinksImg,
                 name:"Martin",
                 price:"9.11",
-                desert:"soda,cream,milk,sugar"
+                desert:"soda,cream,milk,sugar",
+                text: "Lörem ipsum askstoppad defaktisk, logokemi. Diastat retos att endomatisk. Geogehet pultvätta, om pneumativ.",
+
             }, {
                 id:3,
                 images:ColdDrinksImg,
                 name:"Martin",
                 price:"9.11",
-                desert:"soda,cream,milk,sugar"
+                desert:"soda,cream,milk,sugar",
+                text: "Lörem ipsum askstoppad defaktisk, logokemi. Diastat retos att endomatisk. Geogehet pultvätta, om pneumativ.",
+
             }, {
                 id:4,
                 images:ColdDrinksImg,
                 name:"Martin",
                 price:"9.11",
-                desert:"soda,cream,milk,sugar"
+                desert:"soda,cream,milk,sugar",
+                text: "Lörem ipsum askstoppad defaktisk, logokemi. Diastat retos att endomatisk. Geogehet pultvätta, om pneumativ.",
             }, {
                 id:5,
                 images:ColdDrinksImg,
                 name:"Martin",
                 price:"9.11",
-                desert:"soda,cream,milk,sugar"
+                desert:"soda,cream,milk,sugar",
+                text: "Lörem ipsum askstoppad defaktisk, logokemi. Diastat retos att endomatisk. Geogehet pultvätta, om pneumativ.",
+
             },
             {
                 id:6,
                 images:ColdDrinksImg,
                 name:"Martin",
                 price:"9.11",
-                desert:"soda,cream,milk,sugar"
+                desert:"soda,cream,milk,sugar",
+                text: "Lörem ipsum askstoppad defaktisk, logokemi. Diastat retos att endomatisk. Geogehet pultvätta, om pneumativ.",
+
             },
         ]
     },
@@ -163,42 +193,42 @@ export const Foods = [
                 id:4,
                 name: "Baiel Brewery",
                 images: National,
-                price: "$24",
+                price: "24",
                 text: "Lörem ipsum askstoppad defaktisk, logokemi. Diastat retos att endomatisk. Geogehet pultvätta, om pneumativ.",
                 desert: "soda,cream,milk,sugar",
             }, {
                 id:4,
                 name: "Beer Brewery",
                 images: National,
-                price: "$24",
+                price: "24",
                 text: "Lörem ipsum askstoppad defaktisk, logokemi. Diastat retos att endomatisk. Geogehet pultvätta, om pneumativ.",
                 desert: "soda,cream,milk,sugar",
             }, {
                 id:4,
                 name: "Beer Brewery",
                 images: National,
-                price: "$24",
+                price: "24",
                 text: "Lörem ipsum askstoppad defaktisk, logokemi. Diastat retos att endomatisk. Geogehet pultvätta, om pneumativ.",
                 desert: "soda,cream,milk,sugar",
             }, {
                 id:4,
                 name: "Beer Brewery",
                 images: National,
-                price: "$24",
+                price: "24",
                 text: "Lörem ipsum askstoppad defaktisk, logokemi. Diastat retos att endomatisk. Geogehet pultvätta, om pneumativ.",
                 desert: "soda,cream,milk,sugar",
             }, {
                 id:4,
                 name: "Beer Brewery",
                 images: National,
-                price: "$24",
+                price: "24",
                 text: "Lörem ipsum askstoppad defaktisk, logokemi. Diastat retos att endomatisk. Geogehet pultvätta, om pneumativ.",
                 desert: "soda,cream,milk,sugar",
             }, {
                 id:4,
                 name: "Beer Brewery",
                 images: National,
-                price: "$24",
+                price: "24",
                 text: "Lörem ipsum askstoppad defaktisk, logokemi. Diastat retos att endomatisk. Geogehet pultvätta, om pneumativ.",
                 desert: "soda,cream,milk,sugar",
             },
@@ -213,38 +243,50 @@ export const Foods = [
                 id: 5,
                 name: "Ali Brewery",
                 images: Eastern,
-                price: "$24",
+                price: "24",
                 desert: "soda,cream,milk,sugar",
+                text: "Lörem ipsum askstoppad defaktisk, logokemi. Diastat retos att endomatisk. Geogehet pultvätta, om pneumativ.",
+
             }, {
                 id: 5,
                 name: "Beer Brewery",
                 images: Eastern,
-                price: "$24",
+                price: "24",
                 desert: "soda,cream,milk,sugar",
+                text: "Lörem ipsum askstoppad defaktisk, logokemi. Diastat retos att endomatisk. Geogehet pultvätta, om pneumativ.",
+
             }, {
                 id: 5,
                 name: "Beer Brewery",
                 images: Eastern,
-                price: "$24",
+                price: "24",
                 desert: "soda,cream,milk,sugar",
+                text: "Lörem ipsum askstoppad defaktisk, logokemi. Diastat retos att endomatisk. Geogehet pultvätta, om pneumativ.",
+
             }, {
                 id: 5,
                 name: "Beer Brewery",
                 images: Eastern,
-                price: "$24",
+                price: "24",
                 desert: "soda,cream,milk,sugar",
+                text: "Lörem ipsum askstoppad defaktisk, logokemi. Diastat retos att endomatisk. Geogehet pultvätta, om pneumativ.",
+
             }, {
                 id: 5,
                 name: "Beer Brewery",
                 images: Eastern,
-                price: "$24",
+                price: "24",
                 desert: "soda,cream,milk,sugar",
+                text: "Lörem ipsum askstoppad defaktisk, logokemi. Diastat retos att endomatisk. Geogehet pultvätta, om pneumativ.",
+
             }, {
                 id: 5,
                 name: "Beer Brewery",
                 images: Eastern,
-                price: "$24",
+                price: "24",
                 desert: "soda,cream,milk,sugar",
+                text: "Lörem ipsum askstoppad defaktisk, logokemi. Diastat retos att endomatisk. Geogehet pultvätta, om pneumativ.",
+
             },
         ]
     },
@@ -257,38 +299,50 @@ export const Foods = [
                 id:6,
                 name: "Beer Brewery",
                 images: FastFood,
-                price: "$24",
+                price: "24",
                 desert: "soda,cream,milk,sugar",
+                text: "Lörem ipsum askstoppad defaktisk, logokemi. Diastat retos att endomatisk. Geogehet pultvätta, om pneumativ.",
+
             }, {
                 id:6,
                 name: "Beer Brewery",
                 images: FastFood,
-                price: "$24",
+                price: "24",
                 desert: "soda,cream,milk,sugar",
+                text: "Lörem ipsum askstoppad defaktisk, logokemi. Diastat retos att endomatisk. Geogehet pultvätta, om pneumativ.",
+
             }, {
                 id:6,
                 name: "Beer Brewery",
                 images: FastFood,
-                price: "$24",
+                price: "24",
                 desert: "soda,cream,milk,sugar",
+                text: "Lörem ipsum askstoppad defaktisk, logokemi. Diastat retos att endomatisk. Geogehet pultvätta, om pneumativ.",
+
             }, {
                 id:6,
                 name: "Beer Brewery",
                 images: FastFood,
-                price: "$24",
+                price: "24",
                 desert: "soda,cream,milk,sugar",
+                text: "Lörem ipsum askstoppad defaktisk, logokemi. Diastat retos att endomatisk. Geogehet pultvätta, om pneumativ.",
+
             }, {
                 id:6,
                 name: "Beer Brewery",
                 images: FastFood,
-                price: "$24",
+                price: "24",
                 desert: "soda,cream,milk,sugar",
+                text: "Lörem ipsum askstoppad defaktisk, logokemi. Diastat retos att endomatisk. Geogehet pultvätta, om pneumativ.",
+
             }, {
                 id:6,
                 name: "Beer Brewery",
                 images: FastFood,
-                price: "$24",
+                price: "24",
                 desert: "soda,cream,milk,sugar",
+                text: "Lörem ipsum askstoppad defaktisk, logokemi. Diastat retos att endomatisk. Geogehet pultvätta, om pneumativ.",
+
             },
         ]
     },
