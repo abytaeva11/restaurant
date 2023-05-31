@@ -6,7 +6,6 @@ import {ImLocation2} from 'react-icons/im'
 import {MdLocalPhone} from 'react-icons/md'
 import profile from "../../images/profile-window.svg"
 import telIcon from "../../images/tel-icon.svg"
-import {Link} from "react-router-dom";
 
 const Hero = () => {
     const [open,setOpen] = useState(false)
@@ -17,12 +16,7 @@ const Hero = () => {
             return setOpen(false)
         }
     }
-    // function getClose () {
-    //     if (open === true){
-    //         setOpen(false)
-    //     }
-    //
-    // }
+
 
 
     return (
