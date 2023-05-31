@@ -5,16 +5,18 @@ import bes from './../../images/Best log.svg'
 import frem19 from './../../images/Frame 19.png'
 import frem20 from './../../images/Frame 20.png'
 import Slider from "react-slick";
+import {TfiAngleDoubleLeft, TfiAngleDoubleRight} from "react-icons/tfi";
 
 const Best = () => {
     const settings = {
-        dots: true,
         infinite: true,
         slidesToShow: 2,
         slidesToScroll: 1,
-        autoplay: true,
-        speed: 2000,
-        autoplaySpeed: 2000,
+        autoplay: false,
+        speed: 1000,
+        nextArrow: <TfiAngleDoubleRight color={"white"}/>,
+        swipeToSlide: true,
+        prevArrow:<TfiAngleDoubleLeft color={"white"}/>,
     };
     return (
         <div id="best">
@@ -36,7 +38,6 @@ const Best = () => {
                     </div>
                     <div className="best--slider">
                         <Slider {...settings}>
-                            {/*<div className="best--image">*/}
                             <div>
                                 <img className="best--img1" src={frem19} alt="img"/>
                             </div>
