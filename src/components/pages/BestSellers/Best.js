@@ -1,11 +1,5 @@
 import React from 'react';
 import hero from '../../../images/hero-wave.svg'
-import bes from '../../../images/Best log.svg'
-import slide1 from '../../../images/Frame 19.png'
-import slide2 from '../../../images/Frame 20.png'
-import Slider from "react-slick";
-import {TfiAngleDoubleLeft, TfiAngleDoubleRight} from "react-icons/tfi";
-
 const Best = () => {
     const settings = {
         dots: true,
@@ -58,18 +52,7 @@ const Best = () => {
                             See what new at your Cafesio and You`ll find Cafesio
                             Covent Carden moments.</p>
                     </div>
-                    {/*<div className="best--img">*/}
-                    {/*                       <div style={{*/}
-                    {/*        display: 'flex'*/}
-                    {/*    }} className="best--img__svg">*/}
-                    {/*        <Slider {...settings}>*/}
-                    {/*            <img src={slide1} alt="" className="all"/>*/}
-                    {/*            <img src={slide2} alt="" className="all"/>*/}
-                    {/*            <img src={slide1} alt="" className="all"/>*/}
-                    {/*            <img src={slide2} alt="" className="all"/>*/}
-                    {/*        </Slider>*/}
-                    {/*    </div>*/}
-                    {/*</div>*/}
+
                 </div>
             </div>
 
