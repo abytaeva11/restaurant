@@ -1,13 +1,13 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;1,100;1,200;1,300&display=swap');
 
-@import "Styles/Header.scss";
-@import "Styles/Hero.scss";
-@import "Styles/About.scss";
-@import "Styles/BestSellers.scss";
-@import "Styles/MainMenu.scss";
-@import "Styles/ModernInterier.scss";
-@import "Styles/Visit.scss";
-@import "Styles/Footer.scss";
+@import "components/Styles/Header.scss";
+@import "components/Styles/Hero.scss";
+@import "components/Styles/About.scss";
+@import "components/Styles/BestSellers.scss";
+@import "components/Styles/MainMenu.scss";
+@import "components/Styles/ModernInterier.scss";
+@import "components/Styles/Visit.scss";
+@import "components/Styles/Footer.scss";
 
 *{
     margin: 0;

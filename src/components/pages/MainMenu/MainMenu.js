@@ -1,7 +1,7 @@
 import React, {useState} from 'react';
-import titleImg from "../../images/hero-wave.svg"
-import titleRight from "../../images/hero-wave-right.svg"
-import {Foods} from "../../data/Data";
+import titleImg from "../../../images/hero-wave.svg"
+import titleRight from "../../../images/hero-wave-right.svg"
+import {Foods} from "../../../data/Data";
 import {Link} from "react-router-dom";
 import {BsArrowRightShort} from "react-icons/bs";
 

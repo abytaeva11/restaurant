@@ -105,17 +105,17 @@
 
       &--blockChild {
         &__foods {
-          display: flex;
-          justify-content: space-between;
-          align-items: start;
+          //display: flex;
+          //justify-content: space-between;
+          //align-items: start;
 
           &--allBtn {
-            margin-right: 100px;
             display: flex;
             flex-direction: column;
             align-items: start;
             width: 380px;
             overflow: hidden;
+           margin-right: 100px;
             &__btn {
               background: #1F2731;
               width: 94%;
@@ -165,6 +165,8 @@
 
 
       &__onlyFood {
+        width:100%;
+        margin-left:50px;
         &__parent {
           display: flex;
           flex-direction: column;
@@ -247,7 +249,7 @@
 
         }
         &__onlyFood{
-          width: 100%;
+          //width: 100%;
         }
       }
     }
@@ -319,6 +321,7 @@
         }
         &__onlyFood{
           width: 100%;
+          margin-right: 50px;
           &__parent{
             padding-bottom: 30px;
             &--order{

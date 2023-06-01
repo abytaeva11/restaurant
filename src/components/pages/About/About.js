@@ -1,8 +1,8 @@
 import React from 'react';
-import './../.././Styles/About.scss'
-import coking from './../../images/Frame 15.png'
-import coki from './../../images/Frame 16.png'
-import logo from './../../images/about-logo.svg'
+import '../../Styles/About.scss'
+import coking from '../../../images/Frame 15.png'
+import drinks from '../../../images/Frame 16.png'
+import logo from '../../../images/about-logo.svg'
 
 const About = () => {
     return (
@@ -22,7 +22,7 @@ const About = () => {
                     </div>
                     <div className="about--images">
                         <img src={coking} alt="img"/>
-                        <img src={coki} alt="img"/>
+                        <img src={drinks} alt="img"/>
                     </div>
                 </div>
             </div>

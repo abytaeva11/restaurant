@@ -5,7 +5,9 @@
     align-items: center;
     justify-content: space-between;
     flex-wrap: wrap;
-    &--title{
+    padding: 60px 0 0 0;
+
+        &--title{
       &__sub{
         font-family: 'Shalimar';
         font-style: normal;
@@ -22,7 +24,7 @@
         font-size: 40px;
         line-height: 61px;
         color: #FFFFFF;
-        padding-bottom: 40px;
+          padding: 18px 0 40px 0;
       }
       &__exs{
         padding: 20px 0 20px 0;
@@ -100,24 +102,25 @@
       }
     }
     &--nav{
-      margin-top: 50px;
-      width: 651px;
-      height: 590px;
+      margin-top: 20px;
+      width: 681px;
+      height: 570px;
       background: #EF272C;
       opacity: 0.7;
       box-shadow: 5px 8px 26px rgba(86, 9, 187, 0.1);
       border-radius: 2px;
+
       .icon{
         font-size: 35px;
       }
       &__first{
         margin-left: 20px;
-        padding: 30px 0;
         font-weight: 500;
         font-size: 24px;
         line-height: 29px;
         text-transform: uppercase;
         color: #1F2731;
+          padding: 20px 0;
       }
       &__email{
         margin-left: 20px;
@@ -156,7 +159,7 @@
 @media (max-width: 992px) {
   #visit{
     .visit{
-      &--nav{
+        &--nav{
         width: 601px;
         &__map{
           margin-left: 20px;
@@ -224,10 +227,15 @@
 }
 @media (max-width: 576px) {
   #visit{
+    padding-bottom: 10px;
+
     .visit{
       position: relative;
       left: -122;
       top: 0;
+      &--title{
+        margin-left: 1%;
+      }
       &--nav{
         &__map{
           width: 333px;

@@ -1,9 +1,9 @@
 import React, {useEffect, useState} from 'react';
-import {Foods} from "../../data/Data";
+import {Foods} from "../../../data/Data";
 import {IoIosCloseCircleOutline} from "react-icons/io";
-import MenuIcons from "../../images/hero-wave.svg"
+import MenuIcons from "../../../images/hero-wave.svg"
 import {FiSearch} from "react-icons/fi";
-import "./AboutMenu.scss"
+import "../../Styles/AboutMenu.scss"
 
 const AboutFoods = () => {
     const [selectedTab, setSelectedTab] = useState(1);
@@ -106,15 +106,15 @@ const AboutFoods = () => {
                                                                 </div>
                                                                 <div
                                                                     className="aboutFoods--block__addedFoods--spend__feel--keep--think">
-                                                                    <h3>Extras</h3>
+                                                                    <h3>Drinks</h3>
                                                                     <div
                                                                         className="aboutFoods--block__addedFoods--spend__feel--keep--think__become">
-                                                                        <h4>Cherry</h4>
+                                                                        <h4>Coca Cola</h4>
                                                                         <h4>$0.90</h4>
                                                                     </div>
                                                                     <div
                                                                         className="aboutFoods--block__addedFoods--spend__feel--keep--think__become">
-                                                                        <h4>Cherry</h4>
+                                                                        <h4>Coca Cola</h4>
                                                                         <h4>$0.90</h4>
                                                                     </div>
                                                                 </div>

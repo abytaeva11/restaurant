@@ -1,13 +1,13 @@
 import './App.scss';
 import React from "react";
 import Header from "../src/components/Header/Header";
-import Footer from "../src/Pages/Footer/Footer";
-import MainN from "../src/Pages/Main/MainN";
+import Footer from "./components/pages/Footer/Footer";
+import MainN from "./components/pages/Main/MainN";
 import { Route, Routes} from "react-router-dom";
 
-import About from "./Pages/About/About";
-import Visit from "./Pages/Visit/Visit";
-import AboutFoods from "./Pages/Menu/MenuAboute";
+import About from "./components/pages/About/About";
+import Visit from "./components/pages/Visit/Visit";
+import AboutFoods from "./components/pages/Menu/MenuAboute";
 
 function App() {
   return (

@@ -1,11 +1,11 @@
 import React, {useState} from 'react';
-import wave from "../../images/hero-wave.svg"
-import waveRight from "../../images/hero-wave-right.svg"
-import {AiOutlineArrowRight} from 'react-icons/ai'
+import wave from "../../../images/hero-wave.svg"
+import waveRight from "../../../images/hero-wave-right.svg"
+import {HiArrowRight} from 'react-icons/hi'
 import {ImLocation2} from 'react-icons/im'
 import {MdLocalPhone} from 'react-icons/md'
-import profile from "../../images/profile-window.svg"
-import telIcon from "../../images/tel-icon.svg"
+import profile from "../../../images/profile-window.svg"
+import telIcon from "../../../images/tel-icon.svg"
 
 const Hero = () => {
     const [open,setOpen] = useState(false)
@@ -44,8 +44,8 @@ const Hero = () => {
                                 The Restaurant`s sunny decor was inspired by the diners</p>
                             <div className="hero--main__decor">
                                 <div/>
-                                <button onClick={() =>getOpen() }>
-                                    <h1>Reserve Your Table<AiOutlineArrowRight style={{
+                                <button  onClick={() =>getOpen() }>
+                                    <h1 >Reserve Your Table<HiArrowRight style={{
                                         marginLeft: '15px'
                                     }}/></h1></button>
                                 <div/>
